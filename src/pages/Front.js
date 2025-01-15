@@ -13,6 +13,7 @@ import TOAS from "../components/images/partners/toas.png";
 import Nokia from "../components/images/partners/nokia.png";
 import Evitec from "../components/images/partners/evitec.png";
 import Frostly from "../components/images/partners/frostly.png";
+import Twoday from "../components/images/partners/twoday.png";
 import { useTranslation } from "react-i18next";
 
 import sourcebanner from "../components/images/sourcebanner.jpeg";
@@ -45,9 +46,6 @@ const Front = () => {
           <a class="partner-widget-item" href="https://www.solita.fi/">
             <img src={Solita} alt="Solita Logo" />
           </a>
-          <a class="partner-widget-item" href="https://www.vincit.com/">
-            <img src={Vincit} alt="Vincit Logo" />
-          </a>
           <a class="partner-widget-item" href="https://www.evitec.com/">
             <img src={Evitec} alt="Evitec Logo" />
           </a>
@@ -63,8 +61,8 @@ const Front = () => {
           <a class="partner-widget-item" href="https://www.nokia.com/">
             <img src={Nokia} alt="Nokia Logo" />
           </a>
-          <a class="partner-widget-item" href="https://www.frostly.fi/">
-            <img src={Frostly} alt="Frostly Logo" />
+          <a class="partner-widget-item" href="https://www.twoday.com/">
+            <img src={Twoday} alt="Twoday Logo" />
           </a>
         </div>
       </div>

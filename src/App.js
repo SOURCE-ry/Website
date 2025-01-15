@@ -1,8 +1,8 @@
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
-import Namebanner from "./components/Namebanner";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Namebanner from "./components/namebanner";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
 import Front from "./pages/Front";
 import Membership from "./pages/Membership";
 import Events from "./pages/Events";

@@ -29,10 +29,83 @@ import eino2024 from "../components/images/board/2024/eino.jpg"
 import eetu2024 from "../components/images/board/2024/eetu.jpg"
 import antti2024 from "../components/images/board/2024/antti.jpg"
 import wilhelm2024 from "../components/images/board/2024/wilhelm.jpg"
-
+/* import juha2025 from "../components/images/board/2025/juha.jpg"
+import poysti2025 from "../components/images/board/2025/poysti.jpg"
+import eino2025 from "../components/images/board/2025/eino.jpg"
+import eetuH2025 from "../components/images/board/2025/eetuH.jpg"
+import joanne2025 from "../components/images/board/2025/joanne.jpg"
+import carita2025 from "../components/images/board/2025/carita.jpg"
+import eetu2025 from "../components/images/board/2025/eetu.jpg"
+import riku2025 from "../components/images/board/2025/riku.jpg"
+import antti2025 from "../components/images/board/2025/antti.jpg"
+import eppu2025 from "../components/images/board/2025/eppu.jpg" */
 
 const Board = () => {
   const { t } = useTranslation();
+/*   const board2025 = {
+    board: [
+      {
+        name: "Juha Hautakangas",
+        role: t("roles.chairperson"),
+        image: juha2025,
+      },
+      {
+        name: "Otto-Oskari Suuronen",
+        role: t("roles.viceChairperson"),
+        image: poysti2025,
+      },
+      {
+        name: "Eino Palomäki",
+        role: t("roles.treasurer"),
+        image: eino2025,
+      },
+      {
+        name: "Eetu Heikkinen",
+        role: t("roles.eventsCoordinator"),
+        image: eetuH2025,
+      },
+      {
+        name: "Joanne Hoikka",
+        role: t("roles.leisureCoordinator"),
+        image: joanne2025,
+      },
+      {
+        name: "Carita Lindfors",
+        role: t("roles.secretary"),
+        image: carita2025,
+      },
+      {
+        name: "Eetu Reijasto",
+        role: t("roles.membershipAndClubroomCoordinator"),
+        image: eetu2025,
+      },
+      {
+        name: "Riku Hakamäki",
+        role: t("roles.externalRelationsCoordinator"),
+        image: riku2025,
+      },
+      {
+        name: "Antti Venetjoki",
+        role: t("roles.kopo"),
+        image: antti2025,
+      },
+      {
+        name: "Eppu Melto",
+        role: t("roles.webmaster"),
+        image: eppu2025,
+      }
+    ],
+    staff: [
+      { name: "Leo Liikka", role: "TiTeLAN" },
+      { name: "Leevi Villa", role: "TiTeLAN" },
+      { name: "Toni Rantanen", role: t("roles.officer") },
+      { name: "Henna Kumpumäki", role: t("roles.officer") },
+      { name: "Lassi Esama", role: t("roles.officer") },
+      { name: "Lassi Keijonen", role: t("roles.officer") },
+    ],
+  }; */
+
+
   const board2024 = {
     board: [
       {
@@ -285,6 +358,26 @@ const Board = () => {
           <br />
           <h1>{t("pastBoards")}</h1>
           <div className="boards-container">
+          {/* <h2>2024</h2>
+            <div className="board-container">
+              {board2024.board.map((member) => (
+                <div className="old-boardmember">
+                  <img src={member.image} alt=""></img>
+                  <p className="boardmember-name">{member.name}</p>
+                  <i className="boardrole">//{member.role}</i>
+                </div>
+              ))}
+            </div>
+            <br />
+
+            <p>
+              <b>{t("officers")}</b>
+            </p>
+            {board2024.staff.map((member) => (
+              <p>
+                <b>{member.role}:</b> {member.name}
+              </p>
+            ))} */}
           <h2>2023</h2>
             <div className="board-container">
               {board2023.board.map((member) => (
