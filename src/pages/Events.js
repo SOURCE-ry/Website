@@ -22,7 +22,6 @@ const Events = () => {
           <ul>
             <li>{t("events.studentParties")}</li>
             <li>{t("events.newbiesNight")}</li>
-            <li>{t("events.sportShifts")}</li>
             <li>{t("events.titelan")}</li>
             <li>{t("events.boardGameNights")}</li>
             <li>{t("events.other")}</li>

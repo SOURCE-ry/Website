@@ -37,8 +37,6 @@ const Partners = () => {
           <p>{t("companyPartnership.excursions.description")}</p>
           <h2>{t("companyPartnership.guestLectures.title")}</h2>
           <p>{t("companyPartnership.guestLectures.description")}</p>
-          <h2>{t("companyPartnership.iotSeminar.title")}</h2>
-          <p>{t("companyPartnership.iotSeminar.description")}</p>
           <h2>{t("companyPartnership.overallsAds.title")}</h2>
           <p>{t("companyPartnership.overallsAds.description")}</p>
           <h2>{t("partnersTitle")}</h2>

@@ -20,8 +20,7 @@ const Membership = () => {
             <br />– {t("membershipBenefits.events")}
             <br />– {t("membershipBenefits.excursions")}
             <br />– {t("membershipBenefits.coffeTea")}
-            <br />– {t("membershipBenefits.sportShifts")}
-            <br />– {t("membershipBenefits.discountedEvents")}
+            <br />– {t("membershipBenefits.votingRight")}
           </p>
           <p>{t("membershipInfo.paragraph3")}</p>
           <p>{t("membershipInfo.paragraph4")}</p>

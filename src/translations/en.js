@@ -3,7 +3,7 @@ const en = {
     paragraph1:
       "SOURCE ry is TAMK's information and communication technology student association. The association was founded in 2016 and registered as an association a year later. The most visible part of our association is our clubroom, which can be found at the end of the A-wing clubroom corridor, in room A0-35.",
     paragraph2:
-      "SOURCE's purpose is to strengthen the TiTe network and share information about the opportunities in our field. SOURCE organizes events such as sauna and board game nights for its members, as well as a weekly sports shift. Our most significant events include the traditional TiTeLAN parties and the IoT seminar that brings companies to TAMK.",
+      "SOURCE's purpose is to strengthen the TiTe network and share information about the opportunities in our field. SOURCE organizes events such as sauna and board game nights for its members, as well as a weekly sports shift. Our most significant events include the traditional TiTeLAN parties.",
     paragraph3:
       "SOURCE works closely with Tamko, TIRO ry, and other TAMK student associations by participating in the organization of events.",
     paragraph4:
@@ -84,12 +84,12 @@ const en = {
     seminars: "Seminars",
     expos: "Expos",
   },
-  iotSeminarInfo: {
-    paragraph1:
-      "The IoT Seminar is a seminar event held at Tampere University of Applied Sciences, which brings together industry companies, experts, and students.",
-    paragraph2:
-      "The IoT Seminar delves into various solutions and innovations in the field of science and technology through seminar presentations, and during the day, attendees can visit different company booths and network.",
-  },
+  // iotSeminarInfo: {
+  //   paragraph1:
+  //     "The IoT Seminar is a seminar event held at Tampere University of Applied Sciences, which brings together industry companies, experts, and students.",
+  //   paragraph2:
+  //     "The IoT Seminar delves into various solutions and innovations in the field of science and technology through seminar presentations, and during the day, attendees can visit different company booths and network.",
+  // },
   membershipInfo: {
     paragraph1:
       "The annual membership fee for SOURCE is 5€. Membership can be obtained from either a board member or the SOURCE online store. When you purchase a four-year membership at once, you will receive a SOURCE overall patch for free (ask a board member for the patch).",
@@ -103,8 +103,7 @@ const en = {
     events: "participate in events meant for members, such as sauna evenings",
     excursions: "join company excursions",
     coffeTea: "free coffee and tea in the clubroom",
-    sportShifts: "join the weekly sport shifts",
-    discountedEvents: "get discount on events organized by SOURCE",
+    votingRight: "voting rights at the autumn and spring meetings",
   },
   becomeMember: "Become a member",
   pageNotFound: "Page not found",
@@ -132,11 +131,11 @@ const en = {
       description:
         "Guest lectures are a great way to share professional expertise with students. Students are always interested in industry practices and technologies. For guest lectures, SOURCE ry can reserve facilities at TAMK.",
     },
-    iotSeminar: {
-      title: "IoT Seminar",
-      description:
-        "The IoT Seminar is an annual event held at Tampere University of Applied Sciences, bringing together industry companies, experts, and students. The event is organized by SOURCE ry, and the proceeds from the event are directed towards developing the IoT Seminar and SOURCE ry's activities. Companies can participate by securing an exhibition booth and/or delivering a presentation. Booth prices typically range from 150-250€ for a 2-day event, and presentations are free for companies.",
-    },
+    // iotSeminar: {
+    //   title: "IoT Seminar",
+    //   description:
+    //     "The IoT Seminar is an annual event held at Tampere University of Applied Sciences, bringing together industry companies, experts, and students. The event is organized by SOURCE ry, and the proceeds from the event are directed towards developing the IoT Seminar and SOURCE ry's activities. Companies can participate by securing an exhibition booth and/or delivering a presentation. Booth prices typically range from 150-250€ for a 2-day event, and presentations are free for companies.",
+    // },
     overallsAds: {
       title: "Overalls Ads",
       description:
@@ -172,7 +171,7 @@ const en = {
     paragraph1:
       "SOURCE ry is TAMK's information and communication technology subject club. The club was established in 2016. We registered as an association a year later. The most visible part of our club is our own clubroom, which can be found at the end of the A-wing clubroom corridor, in room A0-35.",
     paragraph2:
-      "SOURCE's purpose is to consolidate the TiTe network and share information about the opportunities in our field. SOURCE organizes various events for its members, including sauna and board game nights, as well as a weekly sports shift. Our most significant events include the traditional TiTeLANit LAN party and an IoT seminar that brings companies to TAMK.",
+      "SOURCE's purpose is to consolidate the TiTe network and share information about the opportunities in our field. SOURCE organizes various events for its members, including sauna and board game nights, as well as a weekly sports shift. Our most significant events include the traditional TiTeLANit LAN party.",
     paragraph3:
       "SOURCE collaborates closely with Tamko, TIRO ry, and other TAMK clubs by participating in event organization.",
     paragraph4:

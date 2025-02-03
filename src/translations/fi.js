@@ -3,7 +3,7 @@ const fi = {
     paragraph1:
       "SOURCE ry on TAMKin tieto- ja viestintätekniikan ainekerho. Kerho on perustettu vuonna 2016. Yhdistykseksi rekisteröidyimme vuotta myöhemmin. Näkyvin osa kerhoamme on oma kerhohuoneemme, joka löytyy A-siiven kerhohuonekäytävän päästä, huoneesta A0-35.",
     paragraph2:
-      "SOURCEn tarkoituksena tiivistää TiTe-verkostoa ja jakaa tietoa alamme mahdollisuuksista. SOURCE järjestää jäsenilleen mm. sauna- ja lautapeli-iltoja sekä viikottaisen liikuntavuoron. Merkittävimpiä tapahtumiamme ovat perinteiset TiTeLANit sekä yrityksiä TAMKiin keräävä IoT-seminaari.",
+      "SOURCEn tarkoituksena tiivistää TiTe-verkostoa ja jakaa tietoa alamme mahdollisuuksista. SOURCE järjestää jäsenilleen mm. sauna- ja lautapeli-iltoja. Merkittävimpiä tapahtumiamme ovat perinteiset TiTeLANit.",
     paragraph3:
       "SOURCE toimii tiiviissä yhteistyössä Tamkon, TIRO ry:n sekä muiden TAMKin kerhojen kanssa, osallistumalla tapahtumien järjestämiseen.",
     paragraph4:
@@ -76,7 +76,7 @@ const fi = {
   events: {
     studentParties: "Erilaiset opiskelijabileet",
     newbiesNight: "Uusien ilta",
-    sportShifts: "Kerhon liikuntavuoro",
+    // sportShifts: "Kerhon liikuntavuoro",
     titelan: "TiteLanit",
     boardGameNights: "Lautapeli-illat",
     other: "Muuta ajanviettoa",
@@ -84,12 +84,12 @@ const fi = {
     seminars: "Seminaarit",
     expos: "Messut",
   },
-  iotSeminarInfo: {
-    paragraph1:
-      "IoT-Seminaari on Tampereen ammattikorkeakoululla järjestettävä seminaaritapahtuma, joka kerää yhteen alan yrityksiä, asiantuntijoita ja opiskelijoita.",
-    paragraph2:
-      "IoT-Seminaarissa perehdytään tieteen ja tekniikan alan monipuolisiin ratkaisuihin ja innovaatioihin seminaariesitelmien puitteissa sekä päivän aikana voi tutustua eri yritysten ständeihin ja verkostoitua.",
-  },
+  // iotSeminarInfo: {
+  //   paragraph1:
+  //     "IoT-Seminaari on Tampereen ammattikorkeakoululla järjestettävä seminaaritapahtuma, joka kerää yhteen alan yrityksiä, asiantuntijoita ja opiskelijoita.",
+  //   paragraph2:
+  //     "IoT-Seminaarissa perehdytään tieteen ja tekniikan alan monipuolisiin ratkaisuihin ja innovaatioihin seminaariesitelmien puitteissa sekä päivän aikana voi tutustua eri yritysten ständeihin ja verkostoitua.",
+  // },
   membershipInfo: {
     paragraph1:
       "SOURCEn vuotuinen jäsenmaksu on 5€. Jäsenyyden voi hankkia joko hallituksen jäseneltä tai SOURCEn verkkokaupasta. Ostaessasi neljän vuoden jäsenyyden kerralla saat SOURCEn haalarimerkin ilmaiseksi (kysy merkkiä hallituksen jäseneltä).",
@@ -97,16 +97,14 @@ const fi = {
     paragraph3:
       "SOURCEn kerhohuone löytyy Kuntokadun A-siiven pohjakerroksen tilasta A0-35 (kerhohuonekäytävää melkein ulos asti ja vasemmalle). Kerhohuoneelta saat lähes aina tukea opiskeluusi ja sieltä löytyy myös pelejä.",
     paragraph4:
-      "Lisäksi SOURCE osallistuu koulutuspolitiikkaan yhdessä TAMKOn ja tieto- ja viestintätekniikan linjan kanssa.",
+      "Lisäksi SOURCE osallistuu koulutuspolitiikkaan yhdessä TAMKOn ja tietotekniikan linjan kanssa.",
   },
   membershipBenefits: {
     events:
       "osallistua jäsenille tarkoittuihin tapahtumiin, kuten saunailtoihin",
     excursions: "osallistua yritysvierailuille",
     coffeTea: "hakea kerhohuoneelta kahvia tai teetä ilmaiseksi",
-    sportShifts: "hyödyntää SOURCEn viikottaista liikuntavuoroa",
-    discountedEvents:
-      "osallistua SOURCEn järjestämiin tapahtumiin, kuten TiTeLAN-tapahtumaan jäsenhintaan",
+    votingRight: "asettua ehdolle hallitukseen ja osallistua syys- ja kevätkokouksiin",
   },
   becomeMember: "Liity jäseneksi",
   pageNotFound: "Tais mennä väärin",
@@ -121,7 +119,7 @@ const fi = {
     jobPostings: {
       title: "Perusta",
       description:
-        "Pohjalta on aina aloitettava (ellei ole FOSS jumala). SOURCE ry tarjoaa yrityksillä mahdollisuuden lähettää työpaikkailmoituksia ja muita tiedotteitaan jäsenilleen sopimuksen mukaisesti. Pakettiin kuuluu yrityksen logo SOURCE ry:n etusivulle, sekä lyhyt kuvaus yrityksestä yhteistyökumppanit sivustolle.",
+        "SOURCE ry tarjoaa yrityksillä mahdollisuuden lähettää työpaikkailmoituksia ja muita tiedotteitaan jäsenilleen sopimuksen mukaisesti. Pakettiin kuuluu yrityksen logo SOURCE ry:n etusivulle, sekä lyhyt kuvaus yrityksestä yhteistyökumppanit sivustolle.",
     },
     excursions: {
       title: "Excursiot eli yritysvierailut",
@@ -133,11 +131,11 @@ const fi = {
       description:
         "Vierailijaluennot ovat hieno mahdollisuus jakaa ammattilaisten osaamista opiskelijoille. Opiskelijat ovat aina kiinnostuneita työelämässä käytetyistä toimintatavoista ja teknologioista. Vierailijaluentoja varten SOURCE ry voi varata tilat TAMK:ilta.",
     },
-    iotSeminar: {
-      title: "IoT-seminaari",
-      description:
-        "IoT-Seminaari on Tampereen ammattikorkeakoululla vuosittain järjestettävä seminaaritapahtuma, joka kerää yhteen alan yrityksiä, asiantuntijoita ja opiskelijoita. Tapahtuman järjestää SOURCE ry ja tapahtuman tuotot ohjataan lyhentämättöminä IoT-Seminaarin kehittämiseen ja SOURCE ry:n toimintaan. Yritykset voivat osallistua IoT-seminaariin lunastamalla itselleen ständipaikan ja/tai järjestämällä puheenvuoron. Ständipaikkojen hinnat ovat paikasta riippuen tyypillisesti olleet 150-250€ / 2vrk ja puheenvuorot yrityksille ilmaisia.",
-    },
+    // iotSeminar: {
+    //   title: "IoT-seminaari",
+    //   description:
+    //     "IoT-Seminaari on Tampereen ammattikorkeakoululla vuosittain järjestettävä seminaaritapahtuma, joka kerää yhteen alan yrityksiä, asiantuntijoita ja opiskelijoita. Tapahtuman järjestää SOURCE ry ja tapahtuman tuotot ohjataan lyhentämättöminä IoT-Seminaarin kehittämiseen ja SOURCE ry:n toimintaan. Yritykset voivat osallistua IoT-seminaariin lunastamalla itselleen ständipaikan ja/tai järjestämällä puheenvuoron. Ständipaikkojen hinnat ovat paikasta riippuen tyypillisesti olleet 150-250€ / 2vrk ja puheenvuorot yrityksille ilmaisia.",
+    // },
     overallsAds: {
       title: "Haalarimainokset",
       description:
@@ -173,7 +171,7 @@ const fi = {
     paragraph1:
       "SOURCE ry on TAMKin tieto- ja viestintätekniikan ainekerho. Kerho on perustettu vuonna 2016. Yhdistykseksi rekisteröidyimme vuotta myöhemmin. Näkyvin osa kerhoamme on oma kerhohuoneemme, joka löytyy A-siiven kerhohuonekäytävän päästä, huoneesta A0-35.",
     paragraph2:
-      "SOURCEn tarkoituksena tiivistää TiTe-verkostoa ja jakaa tietoa alamme mahdollisuuksista. SOURCE järjestää jäsenilleen mm. sauna- ja lautapeli-iltoja sekä viikottaisen liikuntavuoron. Merkittävimpiä tapahtumiamme ovat perinteiset TiTeLANit sekä yrityksiä TAMKiin keräävä IoT-seminaari.",
+      "SOURCEn tarkoituksena tiivistää TiTe-verkostoa ja jakaa tietoa alamme mahdollisuuksista. SOURCE järjestää jäsenilleen mm. sauna- ja lautapeli-iltoja. Merkittävimpiä tapahtumiamme ovat perinteiset TiTeLANit sekä yrityksiä TAMKiin keräävä IoT-seminaari.",
     paragraph3:
       "SOURCE toimii tiiviissä yhteistyössä Tamkon, TIRO ry:n sekä muiden TAMKin kerhojen kanssa, osallistumalla tapahtumien järjestämiseen.",
     paragraph4:
