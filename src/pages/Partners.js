@@ -125,21 +125,6 @@ const Partners = () => {
           <div class="partner-break"></div>
           <div class="partner-item">
             <div class="top-row">
-              <img class="partner-logo" src={Evitec} alt="Evitec Solutions Logo" />
-              <a
-                target="_blank"
-                href="https://evitec.com/"
-                class="PartnerItem__PartnerLink-sc-n5e0ep-0 kKYexN"
-                rel="noreferrer"
-              >
-                {t("webpage")}
-              </a>
-            </div>
-            <div class="partner-desc"></div>
-          </div>
-          <div class="partner-break"></div>
-          <div class="partner-item">
-            <div class="top-row">
               <img class="partner-logo" src={Twoday} alt="Twoday Logo" />
               <a
                 target="_blank"

@@ -46,9 +46,6 @@ const Front = () => {
           <a class="partner-widget-item" href="https://www.solita.fi/">
             <img src={Solita} alt="Solita Logo" />
           </a>
-          <a class="partner-widget-item" href="https://www.evitec.com/">
-            <img src={Evitec} alt="Evitec Logo" />
-          </a>
           <a class="partner-widget-item" href="https://www.yobaari.com/">
             <img src={Kaijakka} alt="Kaijakka Logo" />
           </a>
