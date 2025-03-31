@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dea86a76.css",
-    "main.js": "/static/js/main.0b6bb146.js",
+    "main.js": "/static/js/main.b32780a9.js",
     "static/js/787.9ed5246f.chunk.js": "/static/js/787.9ed5246f.chunk.js",
     "static/media/titelan_2019.png": "/static/media/titelan_2019.e682c735f8ab761304c9.png",
     "static/media/laura.jpg": "/static/media/laura.5319fb545ed7cb639ab3.jpg",
@@ -23,18 +23,18 @@
     "static/media/titelan_2010_1.png": "/static/media/titelan_2010_1.596928bdc35547d22c07.png",
     "static/media/titelan_2022.png": "/static/media/titelan_2022.a5b214c0334dd1154312.png",
     "static/media/titelan_2012_2.png": "/static/media/titelan_2012_2.501b77dbb9a44de24558.png",
-    "static/media/eetu_r.jpg": "/static/media/eetu_r.327963f9a7bd3c6b9fc4.jpg",
-    "static/media/eppu.jpg": "/static/media/eppu.ea40c370b701bb63792c.jpg",
-    "static/media/joanne.jpg": "/static/media/joanne.39f445bff96b3d68c81b.jpg",
+    "static/media/eetu_r.jpg": "/static/media/eetu_r.07904d1acd7f6b078ec4.jpg",
     "static/media/wilhelm.jpg": "/static/media/wilhelm.407272816b699acc9d09.jpg",
-    "static/media/otto-oskari.jpg": "/static/media/otto-oskari.4d1d3360932f8a973982.jpg",
-    "static/media/carita.jpg": "/static/media/carita.f307b945a7dd77f68e2c.jpg",
+    "static/media/eppu.jpg": "/static/media/eppu.0e5d797dad4b4763e3a0.jpg",
+    "static/media/joanne.jpg": "/static/media/joanne.39f445bff96b3d68c81b.jpg",
+    "static/media/otto-oskari.jpg": "/static/media/otto-oskari.56eba71ec0e429f820e4.jpg",
     "static/media/juha.jpg": "/static/media/juha.07fd5446af6fb5f466f1.jpg",
+    "static/media/carita.jpg": "/static/media/carita.915685d8fc904dca0eaa.jpg",
+    "static/media/eetu_h.jpg": "/static/media/eetu_h.772ff7c6ed8697c088e7.jpg",
     "static/media/antti.jpg": "/static/media/antti.fda6771ce665638f1c39.jpg",
-    "static/media/eetu_h.jpg": "/static/media/eetu_h.57338e7e9c4dd27bb3f6.jpg",
     "static/media/eino.jpg": "/static/media/eino.8043acfe65f9052d7179.jpg",
+    "static/media/riku.jpg": "/static/media/riku.845c56ff546b49717cdb.jpg",
     "static/media/eetu.jpg": "/static/media/eetu.25f3911da971b241c253.jpg",
-    "static/media/riku.jpg": "/static/media/riku.2d3fc6ad9462105e3047.jpg",
     "static/media/titelan_no_poster.png": "/static/media/titelan_no_poster.37f96135724004808cba.png",
     "static/media/vertti.jpg": "/static/media/vertti.a5f051cb2cc88c3fe3a7.jpg",
     "static/media/juuso.jpg": "/static/media/juuso.463237192cc18542dfc4.jpg",
@@ -71,11 +71,11 @@
     "static/media/profitsoftware.png": "/static/media/profitsoftware.2ff09b757d07f798dabf.png",
     "index.html": "/index.html",
     "main.dea86a76.css.map": "/static/css/main.dea86a76.css.map",
-    "main.0b6bb146.js.map": "/static/js/main.0b6bb146.js.map",
+    "main.b32780a9.js.map": "/static/js/main.b32780a9.js.map",
     "787.9ed5246f.chunk.js.map": "/static/js/787.9ed5246f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea86a76.css",
-    "static/js/main.0b6bb146.js"
+    "static/js/main.b32780a9.js"
   ]
 }
