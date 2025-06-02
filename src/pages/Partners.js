@@ -58,7 +58,7 @@ const Partners = () => {
             <div class="partner-desc"></div>
           </div>
 
-          <div class="partner-break"></div>
+          {/* <div class="partner-break"></div>
           <div class="partner-item">
             <div class="top-row">
               <img class="partner-logo" src={Netum} alt="Netum Logo" />
@@ -88,7 +88,7 @@ const Partners = () => {
                 .
               </p>
             </div>
-          </div>
+          </div> */}
 {/* 
           <div class="partner-break"></div>
           <div class="partner-item">

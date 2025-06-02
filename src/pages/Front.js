@@ -40,9 +40,9 @@ const Front = () => {
           <a class="partner-widget-item" href="https://tammerforce.com/">
             <img src={Futurice} alt="Futurice Logo" />
           </a>
-          <a class="partner-widget-item" href="https://netum.fi">
+          {/* <a class="partner-widget-item" href="https://netum.fi">
             <img src={Netum} alt="Netum Logo" />
-          </a>
+          </a> */}
           <a class="partner-widget-item" href="https://www.solita.fi/">
             <img src={Solita} alt="Solita Logo" />
           </a>
