@@ -172,6 +172,22 @@ const Partners = () => {
           <div class="partner-break"></div>
           <div class="partner-item">
             <div class="top-row">
+              <img class="partner-logo" src={Reaktor} alt="Reaktor Logo" />
+              <a
+                target="_blank"
+                href="https://www.reaktor.com/"
+                class="PartnerItem__PartnerLink-sc-n5e0ep-0 ekXJXT"
+                rel="noreferrer"
+              >
+                {t("webpage")}
+              </a>
+            </div>
+            <div class="partner-desc"></div>
+          </div>
+
+          <div class="partner-break"></div>
+          <div class="partner-item">
+            <div class="top-row">
               <img class="partner-logo" src={TOAS} alt="TOAS Logo" />
               <a
                 target="_blank"

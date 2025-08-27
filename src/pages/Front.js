@@ -61,6 +61,9 @@ const Front = () => {
           <a class="partner-widget-item" href="https://www.twoday.com/">
             <img src={Twoday} alt="Twoday Logo" />
           </a>
+          <a class="partner-widget-item" href="https://www.reaktor.com/">
+            <img src={Reaktor} alt="Reaktor Logo" />
+          </a>
         </div>
       </div>
     </div>
