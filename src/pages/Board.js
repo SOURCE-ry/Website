@@ -39,10 +39,91 @@ import riku2025 from "../components/images/board/2025/riku.jpg"
 import antti2025 from "../components/images/board/2025/antti.jpg"
 import eppu2025 from "../components/images/board/2025/eppu.jpg"
 import otto2025 from "../components/images/board/2025/otto-oskari.jpg"
+import riku2026 from "../components/images/board/2026/riku.jpg"
+import antti2026 from "../components/images/board/2026/antti.jpg"
+import eetu2026 from "../components/images/board/2026/eetu.jpg"
+import eppu2026 from "../components/images/board/2026/eppu.jpg"
+import emmi2026 from "../components/images/board/2026/emmi.jpg"
+import veera2026 from "../components/images/board/2026/veera.jpg"
+import vladyslav2026 from "../components/images/board/2026/vladyslav.jpg"
+import nooa2026 from "../components/images/board/2026/nooa.jpg"
+import jaakko2026 from "../components/images/board/2026/jaakko.jpg"
+import jyri2026 from "../components/images/board/2026/jyri.jpg"
+import oskari2026 from "../components/images/board/2026/oskari.jpg"
 
 const Board = () => {
   const { t } = useTranslation();
-   const board2025 = {
+  const board2026 = {
+    board: [
+      {
+        name: "Riku Hakamäki",
+        role: t("roles.chairperson"),
+        image: riku2026,
+      },
+      {
+        name: "Antti Venetjoki",
+        role: t("roles.viceChairperson"),
+        image: antti2026,
+      },
+      {
+        name: "Eetu Heikkinen",
+        role: t("roles.treasurer"),
+        image: eetu2026,
+      },
+      {
+        name: "Eppu Melto",
+        role: t("roles.secretary"),
+        image: eppu2026,
+      },
+      {
+        name: "Emmi Luokkakallio",
+        role: t("roles.socialMediaAndCommunications"),
+        image: emmi2026,
+      },
+      {
+        name: "Veera Haapanen",
+        role: t("roles.eventsCoordinator"),
+        image: veera2026,
+      },
+      {
+        name: "Vladyslav Cherniavskyi",
+        role: t("roles.leisureCoordinator"),
+        image: vladyslav2026,
+      },
+      {
+        name: "Nooa Jutila",
+        role: t("roles.membershipAndClubroomCoordinator"),
+        image: nooa2026,
+      },
+      {
+        name: "Jaakko Hautala",
+        role: t("roles.externalRelationsCoordinator"),
+        image: jaakko2026,
+      },
+      {
+        name: "Jyri Nieminen",
+        role: t("roles.kopo"),
+        image: jyri2026,
+      },
+      {
+        name: "Oskari Järvinen",
+        role: t("roles.webmaster"),
+        image: oskari2026,
+      },
+    ],
+    staff: [
+      { name: "Topias Ahola", role: t("roles.officer") },
+      { name: "Aapo Salonen", role: t("roles.officer") },
+      { name: "Atte Hyväri", role: t("roles.officer") },
+      { name: "Kalle Kivistö", role: t("roles.officer") },
+      { name: "Joanne Hoikka", role: t("roles.officer") },
+      { name: "Matias Vehmasaho", role: t("roles.officer") },
+      { name: "Eemeli Ranta", role: t("roles.officer") },
+      { name: "Juho Paakkanen", role: t("roles.officer") },
+    ],
+  }
+
+  const board2025 = {
     board: [
       {
         name: "Juha Hautakangas",
@@ -335,7 +416,7 @@ const Board = () => {
           <br />
           <br />
           <div className="current-board-container">
-            {board2025.board.map((member) => (
+            {board2026.board.map((member) => (
               <div className="boardmember">
                   <img src={member.image} alt=""></img>
                 <p className="boardmember-name">{member.name}</p>
@@ -345,7 +426,7 @@ const Board = () => {
           </div>
           <div className="helpers-container">
             <h2>{t("officers")}</h2>
-            {board2025.staff.map((member) => (
+            {board2026.staff.map((member) => (
               <div className="helper">
                 <p>
                   <b>{member.name}:</b>
@@ -361,9 +442,9 @@ const Board = () => {
           <br />
           <h1>{t("pastBoards")}</h1>
           <div className="boards-container">
-           <h2>2024</h2>
+            <h2>2025</h2>
             <div className="board-container">
-              {board2024.board.map((member) => (
+              {board2025.board.map((member) => (
                 <div className="old-boardmember">
                   <img src={member.image} alt=""></img>
                   <p className="boardmember-name">{member.name}</p>
@@ -376,12 +457,32 @@ const Board = () => {
             <p>
               <b>{t("officers")}</b>
             </p>
-            {board2024.staff.map((member) => (
+            {board2025.staff.map((member) => (
               <p>
                 <b>{member.role}:</b> {member.name}
               </p>
-            ))} 
-          <h2>2023</h2>
+            ))}
+            <h2>2024</h2>
+              <div className="board-container">
+                {board2024.board.map((member) => (
+                  <div className="old-boardmember">
+                    <img src={member.image} alt=""></img>
+                    <p className="boardmember-name">{member.name}</p>
+                    <i className="boardrole">//{member.role}</i>
+                  </div>
+                ))}
+              </div>
+              <br />
+
+              <p>
+                <b>{t("officers")}</b>
+              </p>
+              {board2024.staff.map((member) => (
+                <p>
+                  <b>{member.role}:</b> {member.name}
+                </p>
+              ))} 
+            <h2>2023</h2>
             <div className="board-container">
               {board2023.board.map((member) => (
                 <div className="old-boardmember">
