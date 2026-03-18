@@ -120,6 +120,8 @@ const Board = () => {
       { name: "Matias Vehmasaho", role: t("roles.officer") },
       { name: "Eemeli Ranta", role: t("roles.officer") },
       { name: "Juho Paakkanen", role: t("roles.officer") },
+      { name: "Paula Karhi", role: t("roles.officer") },
+      { name: "Eetu Reijasto", role: t("roles.officer") },
     ],
   }
 
@@ -152,7 +154,7 @@ const Board = () => {
       },
       {
         name: "Carita Lindfors",
-        role: t("roles.secretary"),
+        role: t("roles.secretaryLegacy"),
         image: carita2025,
       },
       {
@@ -219,7 +221,7 @@ const Board = () => {
       },
       {
         name: "Juuso Alanko",
-        role: t("roles.secretary"),
+        role: t("roles.secretaryLegacy"),
         image: juuso2024,
       },
       {
@@ -281,7 +283,7 @@ const Board = () => {
       },
       {
         name: "Laura Tiihonen",
-        role: t("roles.secretary"),
+        role: t("roles.secretaryLegacy"),
         image: laura2023,
       },
       {
@@ -348,7 +350,7 @@ const Board = () => {
       },
       {
         name: "Laura Tiihonen",
-        role: t("roles.secretary"),
+        role: t("roles.secretaryLegacy"),
         image: laura2022,
       },
       {
@@ -390,7 +392,7 @@ const Board = () => {
       { name: "Jonna Sorsa", role: t("roles.treasurer") },
       { name: "Joonas Korpela", role: t("roles.eventsCoordinator") },
       { name: "Toni Rantanen", role: t("roles.leisureCoordinator") },
-      { name: "Nelli Niinivaara", role: t("roles.secretary") },
+      { name: "Nelli Niinivaara", role: t("roles.secretaryLegacy") },
       {
         name: "Veera Selin",
         role: t("roles.membershipAndClubroomCoordinator"),

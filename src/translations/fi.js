@@ -41,6 +41,7 @@ const fi = {
     viceChairperson: "Varapuheenjohtaja",
     treasurer: "Rahastonhoitaja",
     secretary: "Sihteeri",
+    secretaryLegacy: "Sihteeri ja viestintävastaava",
     socialMediaAndCommunications: "Some- ja viestintävastaava",
     eventsCoordinator: "Tapahtumavastaava",
     leisureCoordinator: "Vapaa-aikavastaava",

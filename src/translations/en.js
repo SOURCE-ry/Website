@@ -41,6 +41,7 @@ const en = {
     viceChairperson: "Vice Chairperson",
     treasurer: "Treasurer",
     secretary: "Secretary",
+    secretaryLegacy: "Secretary and Communications",
     socialMediaAndCommunications: "Social Media and Communications",
     eventsCoordinator: "Events Coordinator",
     leisureCoordinator: "Leisure Coordinator",
