@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dea86a76.css",
-    "main.js": "/static/js/main.4eca0d9c.js",
+    "main.js": "/static/js/main.418501e9.js",
     "static/js/787.9ed5246f.chunk.js": "/static/js/787.9ed5246f.chunk.js",
-    "static/media/titelan_2019.png": "/static/media/titelan_2019.e682c735f8ab761304c9.png",
     "static/media/laura.jpg": "/static/media/laura.5319fb545ed7cb639ab3.jpg",
     "static/media/nelli.jpg": "/static/media/nelli.c2aa81ee8f97c08a05be.jpg",
     "static/media/toni.jpg": "/static/media/toni.38030c1e8051abca5122.jpg",
@@ -20,15 +19,19 @@
     "static/media/titelan_2011_2.png": "/static/media/titelan_2011_2.6951332b35a391d9ef82.png",
     "static/media/titelan_2010_2.png": "/static/media/titelan_2010_2.9670d350401cf9bc2041.png",
     "static/media/metso.jpg": "/static/media/metso.01881889505a127403ca.jpg",
+    "static/media/titelan_2019.png": "/static/media/titelan_2019.5b91e805b2a3d6690ca7.png",
     "static/media/titelan_2010_1.png": "/static/media/titelan_2010_1.596928bdc35547d22c07.png",
-    "static/media/titelan_2022.png": "/static/media/titelan_2022.a5b214c0334dd1154312.png",
+    "static/media/titelan_2022_1.png": "/static/media/titelan_2022_1.a5b214c0334dd1154312.png",
     "static/media/titelan_2012_2.png": "/static/media/titelan_2012_2.501b77dbb9a44de24558.png",
+    "static/media/titelan_2023_2.png": "/static/media/titelan_2023_2.08c3887aab0eaab2e273.png",
     "static/media/eetu_r.jpg": "/static/media/eetu_r.07904d1acd7f6b078ec4.jpg",
+    "static/media/titelan_2024_1_ig.jpg": "/static/media/titelan_2024_1_ig.d989ee1ac8803cba00a8.jpg",
     "static/media/wilhelm.jpg": "/static/media/wilhelm.407272816b699acc9d09.jpg",
     "static/media/eppu.jpg": "/static/media/eppu.a06828cc905b0ed746c9.jpg",
     "static/media/joanne.jpg": "/static/media/joanne.39f445bff96b3d68c81b.jpg",
     "static/media/otto-oskari.jpg": "/static/media/otto-oskari.56eba71ec0e429f820e4.jpg",
     "static/media/juha.jpg": "/static/media/juha.07fd5446af6fb5f466f1.jpg",
+    "static/media/titelan_2024_2_ig.jpg": "/static/media/titelan_2024_2_ig.3cf08f488a455561eeba.jpg",
     "static/media/carita.jpg": "/static/media/carita.915685d8fc904dca0eaa.jpg",
     "static/media/eetu_h.jpg": "/static/media/eetu_h.772ff7c6ed8697c088e7.jpg",
     "static/media/antti.jpg": "/static/media/antti.48537ea81b121a9d0cb8.jpg",
@@ -38,7 +41,10 @@
     "static/media/titelan_no_poster.png": "/static/media/titelan_no_poster.37f96135724004808cba.png",
     "static/media/vertti.jpg": "/static/media/vertti.a5f051cb2cc88c3fe3a7.jpg",
     "static/media/juuso.jpg": "/static/media/juuso.463237192cc18542dfc4.jpg",
+    "static/media/titelan_2025_2.png": "/static/media/titelan_2025_2.5d3cc246100dddacf458.png",
     "static/media/titelan_2013_2_recreation.png": "/static/media/titelan_2013_2_recreation.99282eaed58a65db4fb5.png",
+    "static/media/titelan_2023_1_ig.jpg": "/static/media/titelan_2023_1_ig.821ff51c6fd1c7f75874.jpg",
+    "static/media/titelan_2025_1.png": "/static/media/titelan_2025_1.5d1ec853f1fe37403d27.png",
     "static/media/jonna.jpg": "/static/media/jonna.6ec1a2ceb3e2c3afc454.jpg",
     "static/media/tapahtumat.jpeg": "/static/media/tapahtumat.8795a9b63b9d82f5e7a3.jpeg",
     "static/media/oskari.jpg": "/static/media/oskari.5d61e5aac69a7d540dc5.jpg",
@@ -55,6 +61,7 @@
     "static/media/ehdotukset.jpeg": "/static/media/ehdotukset.43915296650a1d8b1987.jpeg",
     "static/media/kaijakka.png": "/static/media/kaijakka.c97b3d291d75d6ad92bd.png",
     "static/media/titelan_2014_2.png": "/static/media/titelan_2014_2.0f474ec23551d2e2cf0e.png",
+    "static/media/titelan_2022_2_kide.jpg": "/static/media/titelan_2022_2_kide.09b80003484a5f570d47.jpg",
     "static/media/sourcebanner.jpeg": "/static/media/sourcebanner.f677c16eea74376c7463.jpeg",
     "static/media/evitec_solutions.png": "/static/media/evitec_solutions.1e2782dc89cb660bebff.png",
     "static/media/titelan_2015_2.jpg": "/static/media/titelan_2015_2.66b59098e12d18baaf2f.jpg",
@@ -78,11 +85,11 @@
     "static/media/profitsoftware.png": "/static/media/profitsoftware.2ff09b757d07f798dabf.png",
     "index.html": "/index.html",
     "main.dea86a76.css.map": "/static/css/main.dea86a76.css.map",
-    "main.4eca0d9c.js.map": "/static/js/main.4eca0d9c.js.map",
+    "main.418501e9.js.map": "/static/js/main.418501e9.js.map",
     "787.9ed5246f.chunk.js.map": "/static/js/787.9ed5246f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea86a76.css",
-    "static/js/main.4eca0d9c.js"
+    "static/js/main.418501e9.js"
   ]
 }
