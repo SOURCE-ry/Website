@@ -2,7 +2,14 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import banner from "../components/images/titelan/logo.png";
 import no_poster from "../components/images/titelan/titelan_no_poster.png";
-import titelan_2020_1 from "../components/images/titelan/titelan_2022.png";
+import titelan_2025_2 from "../components/images/titelan/titelan_2025_2.png";
+import titelan_2025_1 from "../components/images/titelan/titelan_2025_1.png";
+import titelan_2024_2 from "../components/images/titelan/titelan_2024_2_ig.jpg";
+import titelan_2024_1 from "../components/images/titelan/titelan_2024_1_ig.jpg";
+import titelan_2023_2 from "../components/images/titelan/titelan_2023_2.png";
+import titelan_2023_1 from "../components/images/titelan/titelan_2023_1_ig.jpg";
+import titelan_2022_2 from "../components/images/titelan/titelan_2022_2_kide.jpg";
+import titelan_2022_1 from "../components/images/titelan/titelan_2022_1.png";
 import titelan_2019_1 from "../components/images/titelan/titelan_2019.png";
 import titelan_2018 from "../components/images/titelan/titelan_2018.jpg";
 import titelan_2017 from "../components/images/titelan/titelan_2017.jpg";
@@ -89,12 +96,16 @@ const Titelan = () => {
             <div className="titelan-info-container">
               <img
                 className="titelan-poster"
-                src={no_poster}
-                alt="Titelan 2022 II Poster"
+                src={titelan_2025_2}
+                alt="Titelan 2025 II Poster"
               />
               <div className="titelan-info">
-                <h2>TiTeLAN 2022 II</h2>
-                <p>28.-30.10.2022</p>
+                <h2>TiTeLAN 2025 II</h2>
+                <p>31.-2.11.2025</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+                <p>
+                  {t("tournaments")}: Pro Pilkki 2, Golf With Your Friends
+                </p>
               </div>
             </div>
             <div className="partner-desc"></div>
@@ -106,7 +117,130 @@ const Titelan = () => {
             <div className="titelan-info-container">
               <img
                 className="titelan-poster"
-                src={titelan_2020_1}
+                src={titelan_2025_1}
+                alt="Titelan 2025 I Poster"
+              />
+              <div className="titelan-info">
+                <h2>TiTeLAN 2025 I</h2>
+                <p>21.-23.3.2025</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+                <p>
+                  {t("tournaments")}: Pro Pilkki 2, Mario Kart Wii
+                </p>
+              </div>
+            </div>
+            <div className="partner-desc"></div>
+          </div>
+          <div className="partner-break"></div>
+
+          <div className="partner-break"></div>
+          <div className="partner-item">
+            <div className="titelan-info-container">
+              <img
+                className="titelan-poster"
+                src={titelan_2024_2}
+                alt="Titelan 2024 II Poster"
+              />
+              <div className="titelan-info">
+                <h2>TiTeLAN 2024 II</h2>
+                <p>8.-10.11.2024</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+                <p>
+                  {t("tournaments")}: Pro Pilkki 2, Street Fighter
+                </p>
+              </div>
+            </div>
+            <div className="partner-desc"></div>
+          </div>
+          <div className="partner-break"></div>
+
+          <div className="partner-break"></div>
+          <div className="partner-item">
+            <div className="titelan-info-container">
+              <img
+                className="titelan-poster"
+                src={titelan_2024_1}
+                alt="Titelan 2024 I Poster"
+              />
+              <div className="titelan-info">
+                <h2>TiTeLAN 2024 I</h2>
+                <p>22.-24.3.2024</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+                <p>
+                  {t("tournaments")}: Pro Pilkki 2, Street Fighter
+                </p>
+              </div>
+            </div>
+            <div className="partner-desc"></div>
+          </div>
+          <div className="partner-break"></div>
+
+          <div className="partner-break"></div>
+          <div className="partner-item">
+            <div className="titelan-info-container">
+              <img
+                className="titelan-poster"
+                src={titelan_2023_2}
+                alt="Titelan 2023 II Poster"
+              />
+              <div className="titelan-info">
+                <h2>TiTeLAN 2023 II</h2>
+                <p>27.-29.10.2023</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+                <p>
+                  {t("tournaments")}: Pro Pilkki 2
+                </p>
+              </div>
+            </div>
+            <div className="partner-desc"></div>
+          </div>
+          <div className="partner-break"></div>
+
+          <div className="partner-break"></div>
+          <div className="partner-item">
+            <div className="titelan-info-container">
+              <img
+                className="titelan-poster"
+                src={titelan_2023_1}
+                alt="Titelan 2023 I Poster"
+              />
+              <div className="titelan-info">
+                <h2>TiTeLAN 2023 I</h2>
+                <p>10.-12.3.2023</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+                <p>
+                  {t("tournaments")}: Pro Pilkki 2
+                </p>
+              </div>
+            </div>
+            <div className="partner-desc"></div>
+          </div>
+          <div className="partner-break"></div>
+
+          <div className="partner-break"></div>
+          <div className="partner-item">
+            <div className="titelan-info-container">
+              <img
+                className="titelan-poster"
+                src={titelan_2022_2}
+                alt="Titelan 2022 II Poster"
+              />
+              <div className="titelan-info">
+                <h2>TiTeLAN 2022 II</h2>
+                <p>28.-30.10.2022</p>
+                <p>{t("location")}: TAMK Liikuntasali</p>
+              </div>
+            </div>
+            <div className="partner-desc"></div>
+          </div>
+          <div className="partner-break"></div>
+
+          <div className="partner-break"></div>
+          <div className="partner-item">
+            <div className="titelan-info-container">
+              <img
+                className="titelan-poster"
+                src={titelan_2022_1}
                 alt="Titelan 2022 I Poster"
               />
               <div className="titelan-info">
