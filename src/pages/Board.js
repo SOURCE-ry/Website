@@ -81,11 +81,6 @@ const Board = () => {
         image: emmi2026,
       },
       {
-        name: "Veera Haapanen",
-        role: t("roles.eventsCoordinator"),
-        image: veera2026,
-      },
-      {
         name: "Vladyslav Cherniavskyi",
         role: t("roles.leisureCoordinator"),
         image: vladyslav2026,
